@@ -1,0 +1,27 @@
+.idea__title {
+  font-family: 'Merriweather';
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 135%;
+  text-transform: uppercase;
+  color: #313131;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 1183px) {
+    .idea__title {
+        display: block;
+        max-width: calc(600px + (800 - 600) * ((100vw - 765px) / (1183 - 765)));
+        width: 100%;
+        margin: 0 auto;
+        font-size: clamp(1.75rem, 0.8349rem + 1.9139vw, 2.25rem);
+    }
+}
+
+@media screen and (max-width: 765px) {
+    .idea__title {
+        text-wrap: wrap;
+        max-width: calc(335px + (600 - 335) * ((100vw - 375px) / (765 - 375)));
+    }
+}

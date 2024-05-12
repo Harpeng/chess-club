@@ -1,0 +1,12 @@
+.idea {
+    margin: 0;
+    padding: 80px 0 64px 0;
+    width: 100%;
+}
+
+@media screen and (max-width: 1366px) {
+    .idea {
+        padding-top: calc(48px + (80 - 48) * ((100vw - 765px) / (1366 - 765)));
+        padding-bottom: calc(34px + (64 - 34) * ((100vw - 765px) / (1366 - 765)));
+    }
+}

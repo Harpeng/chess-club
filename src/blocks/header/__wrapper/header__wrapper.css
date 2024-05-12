@@ -1,0 +1,12 @@
+.header__wrapper {
+    display: flex;
+    gap: calc(16px + (16 - 14) * ((100vw - 765px) / (1920 - 765)));
+}
+
+@media screen and (max-width:765px) {
+    .header__wrapper {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+}

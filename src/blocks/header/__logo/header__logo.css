@@ -1,0 +1,16 @@
+.header__logo {
+    object-fit: cover;
+    box-sizing: border-box;
+    width: 245px;
+    height: calc(32px + (36 - 32) * ((100vw - 765px) / (1920 - 765)));
+    background-image: url(../../../images/logo.svg);
+    margin-bottom: 62px;
+}
+
+@media screen and (max-width:765px) {
+    .header__logo {
+        width: 213px;
+        margin-bottom: 40px;
+        margin-left: -4px;
+    }
+}

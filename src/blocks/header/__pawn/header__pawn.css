@@ -1,0 +1,17 @@
+.header__pawn {
+    background-image: url(../../../images/pawn.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 235px;
+    right: calc(45px + (320 - 45) * ((100vw - 1366px) / (1920 - 1366)));;
+    width: 82.61px;
+    height: 100%;
+}
+
+@media screen and (max-width:765px) {
+    .header__pawn {
+        display: none;
+    }
+}
+

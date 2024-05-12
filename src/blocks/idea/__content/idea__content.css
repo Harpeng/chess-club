@@ -1,0 +1,17 @@
+.idea__content {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 65px;
+    max-width: 1223px;
+    width: 100%;
+}
+
+@media screen and (max-width: 1183px) {
+    .idea__content {
+        flex-direction: column;
+        gap: 0;
+        align-items: flex-start;
+    }
+}

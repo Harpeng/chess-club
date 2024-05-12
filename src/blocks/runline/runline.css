@@ -1,0 +1,37 @@
+.runline {
+    background-color: #F54932;
+    height: 60px;
+    overflow: hidden; 
+    width: 100%;
+    display: inline-block;
+}
+
+@media screen and (max-width:765px) {
+    .runline {
+        height: 38px;
+        text-align: center;
+    }
+}
+
+
+.runline[data-animated=true] {
+    overflow: hidden;
+}
+
+.runline[data-animated=true] .runline__list {
+    width: max-content;
+    animation: scroll 30s linear infinite;
+    will-change: transform;
+}
+
+.runline[data-animated=true] .runline__list:hover {
+    animation-play-state: paused;
+}
+
+@keyframes scroll {
+    to {
+        transform: translate(-50%);
+    }
+    
+}
+

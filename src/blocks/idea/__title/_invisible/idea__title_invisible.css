@@ -1,0 +1,9 @@
+.idea__title_invisible {
+    display: none;
+}
+
+@media screen and (max-width: 1183px) {
+    .idea__title_invisible {
+        display: block;
+    }
+}

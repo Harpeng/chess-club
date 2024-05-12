@@ -1,0 +1,7 @@
+.runline__item {
+    display: flex;
+    gap: 12px;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-self: center;
+}

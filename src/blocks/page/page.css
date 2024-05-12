@@ -1,0 +1,7 @@
+.page {
+    font-family: 'Golos Text', 'Merriweather';
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}

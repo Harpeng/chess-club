@@ -1,0 +1,36 @@
+@font-face { 
+    font-family: 'Golos Text'; 
+    font-weight: 400; 
+    src: url(../vendor/fonts/AnyConv.com__GolosText-Regular.woff2),
+         url(../vendor/fonts/AnyConv.com__GolosText-Regular.woff); 
+} 
+
+@font-face { 
+    font-family: 'Golos Text'; 
+    font-weight: 500; 
+    src: url(../vendor/fonts/AnyConv.com__GolosText-Medium.woff2),
+         url(../vendor/fonts/AnyConv.com__GolosText-Medium.woff); 
+} 
+
+
+@font-face { 
+    font-family: 'Golos Text'; 
+    font-weight: 600; 
+    src: url(../vendor/fonts/AnyConv.com__GolosText-SemiBold.woff2),
+         url(../vendor/fonts/AnyConv.com__GolosText-SemiBold.woff); 
+} 
+
+
+@font-face { 
+    font-family: 'Merriweather'; 
+    font-weight: 400; 
+    src: url(../vendor/fonts/AnyConv.com__Merriweather-Regular.woff2),
+         url(../vendor/fonts/AnyConv.com__Merriweather-Regular.woff);  
+} 
+
+@font-face { 
+    font-family: 'Merriweather'; 
+    font-weight: 700; 
+    src: url(../vendor/fonts/AnyConv.com__Merriweather-Bold.woff2),
+         url(../vendor/fonts/AnyConv.com__Merriweather-Bold.woff);  
+} 

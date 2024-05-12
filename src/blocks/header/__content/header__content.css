@@ -1,0 +1,14 @@
+.header__content {
+    display: flex;
+    flex-direction: column;
+    max-width: 542px;
+    z-index: 9;
+    padding-left: calc(72px + (349 - 72) * ((100vw - 1366px) / (1920 - 1366)));
+}
+
+@media screen and (max-width:765px) {
+    .header__content {
+        max-width: 335px;
+        margin: 0 auto;
+    }
+}

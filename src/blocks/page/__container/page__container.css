@@ -1,0 +1,9 @@
+.page__container {
+    width: 100vw;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow-x: hidden;
+    position: relative;
+}
