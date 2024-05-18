@@ -1,0 +1,25 @@
+.info {
+    margin: 0;
+    padding: 0 0 180px 0;
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+  
+  @media screen and (max-width: 1183px) {
+      .info {
+          flex-direction: column;
+      }
+  }
+
+  @media screen and (max-width: 780px) {
+    .info {
+        padding-bottom: 120px;
+        gap: 52px;
+    }
+  }
+  

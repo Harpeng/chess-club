@@ -9,6 +9,7 @@
   height: 80px;
   box-sizing: border-box;
   cursor: pointer;
+  z-index: 5;
 }
 
 @media screen and (max-width:765px) {

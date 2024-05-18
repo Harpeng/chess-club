@@ -1,0 +1,11 @@
+@media screen and (max-width: 1366px) {
+    .info__text_mob {
+        font-size: clamp(1.125rem, 0.9659rem + 0.3328vw, 1.25rem);
+    }
+}
+
+@media screen and (max-width: 765px) {
+    .info__text_mob {
+        font-size: 18px;
+    }
+}

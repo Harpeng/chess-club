@@ -1,0 +1,21 @@
+.title {
+    text-transform: uppercase;
+    font-family: 'Merriweather';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 135%;
+    color: #313131;
+}
+
+@media screen and (max-width: 1366px) {
+    .title {
+        font-size: clamp(1.75rem, 1.1136rem + 1.3311vw, 2.25rem);
+    }
+}
+
+@media screen and (max-width: 765px) {
+    .title {
+        font-size: 28px;
+    }
+}
+

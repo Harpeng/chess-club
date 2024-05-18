@@ -1,0 +1,25 @@
+.footer__text {
+  font-family: 'Golos Text';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  color: #313131;
+  opacity: 0.6;
+  padding: 40px 0 72px 0;
+  max-width: 1222px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width:1366px) {
+    .footer__text {
+        padding-bottom: calc(60px + (72 - 60) * ((100vw - 765px) / (1366 - 765)));
+        max-width: calc(335px + (1222 - 335) * ((100vw - 375px) / (1366 - 375)));
+    }
+}
+
+@media screen and (max-width:765px) {
+    .footer__text {
+        padding-bottom: 60px;
+    }
+}
+

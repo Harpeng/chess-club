@@ -1,0 +1,11 @@
+.control__carousel {
+    width: 44px;
+    height: 44px;
+}
+
+@media screen and (max-width: 1200px) {
+    .control__carousel {
+      width: calc(36px + (44 - 36) * ((100vw - 780px) / (1200 - 780)));
+      height: calc(36px + (44 - 36) * ((100vw - 780px) / (1200 - 780)));
+    }
+  }

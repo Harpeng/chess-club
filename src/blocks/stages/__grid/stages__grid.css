@@ -1,0 +1,8 @@
+.stages__grid {
+    background-image: url(../../../images/header-back.png);
+    background-color: #e9ded4;
+    background-blend-mode: color-burn;
+    display: flex;
+    gap: 16px;
+    padding: 20px 0 20px 20px;
+}

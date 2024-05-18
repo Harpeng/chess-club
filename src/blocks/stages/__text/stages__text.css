@@ -1,0 +1,29 @@
+.stages__text {
+  margin: 0;
+  padding: 0;
+  max-width: 302px;
+  font-family: 'Golos Text';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  color: #313131;
+}
+
+@media screen and (max-width: 1350px) {
+    .stages__text {
+        max-width: calc(239px + (630 - 239) * ((100vw - 780px) / (1350 - 780)));
+        font-size: clamp(1.125rem, 0.9539rem + 0.3509vw, 1.25rem);
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .stages__text {
+        max-width: 239px;
+        font-size: 18px;
+        margin-top: 3px;
+    }
+}
+
+
+
+

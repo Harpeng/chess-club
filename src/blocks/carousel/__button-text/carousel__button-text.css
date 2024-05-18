@@ -1,0 +1,13 @@
+.carousel__button-text {
+  font-family: "Golos Text";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 120%;
+  padding: 0;
+  color: #3057a2;
+  margin: 0;
+}
+
+.carousel__button-text:hover {
+    color: #fff;
+}

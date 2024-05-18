@@ -1,0 +1,11 @@
+.control_prev {
+    background-image: url(../../../images/arrow-left.svg);
+}
+
+.control_prev:disabled {
+    background-image: url(../../../images/arrow-left-disabled.svg);
+}
+
+.control_prev:hover {
+    background-image: url(../../../images/arrow-left-hover.svg);
+}

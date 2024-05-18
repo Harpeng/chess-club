@@ -1,0 +1,15 @@
+.stages__container-mob {
+    display: none;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 1350px) {
+    .stages__container-mob {
+        display: flex;
+        gap: 20px;
+        overflow: hidden;
+        margin: 0 auto;
+        padding: 0;
+        transition: transform .5s ease;
+    }
+}

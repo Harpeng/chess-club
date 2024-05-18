@@ -1,21 +1,29 @@
-import './index.css';
+import "./index.css";
+import Runline from "../components/animation";
+import Carousel from "../components/carousel";
+import Slider from "../components/slider";
 
-const scrollers = document.querySelector('.runline');
+const runline = new Runline();
 
-if(!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-    addAnimation();
+if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+  runline.addAnimation();
 }
 
-function addAnimation () {
-    const scroller = scrollers;
-    scroller.setAttribute("data-animated", true);
+document.addEventListener("DOMContentLoaded", function () {
+  new Carousel(
+    ".carousel__wrapper",
+    ".carousel__prev",
+    ".carousel__next",
+    ".carousel__current-number",
+    ".carousel__overall-number"
+  );
+});
 
-    const scrollerList = scroller.querySelector('.runline__list');
-    const scrollerContent = Array.from(scrollerList.children);
-
-    scrollerContent.forEach((item) => {
-        const duplicatedItem = item.cloneNode(true);
-        duplicatedItem.setAttribute("aria-hidden", true);
-        scrollerList.appendChild(duplicatedItem )
-    })
-}
+document.addEventListener("DOMContentLoaded", function () {
+  new Slider(
+    ".stages__container-mob",
+    ".stages__prev",
+    ".stages__next",
+    ".stages__dots"
+  );
+});

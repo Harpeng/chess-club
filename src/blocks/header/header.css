@@ -2,10 +2,11 @@
     background-image: url(../../images/header-back.png);
     background-color: #e9ded4;
     background-blend-mode: color-burn;
-    padding: 26px 0 190px 0;
+    padding: 26px 0 184px 0;
     position: relative;
     overflow-x: hidden;
-    z-index: -2;
+    overflow-y: hidden;
+    z-index: 2;
 }
 
 .header::before {

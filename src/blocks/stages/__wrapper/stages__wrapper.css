@@ -1,0 +1,22 @@
+.stages__wrapper {
+    display: flex;
+    gap: 16px;
+}
+
+@media screen and (max-width: 1350px) {
+
+    .stages__wrapper:last-of-type {
+        margin-top: calc(0 + (50 - 0) * ((100vw - 780px) / (1350 - 780)));
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .stages__wrapper {
+        align-items: flex-start;
+    }
+
+    .stages__wrapper:last-of-type {
+        margin-top: 0;
+    }
+}
+

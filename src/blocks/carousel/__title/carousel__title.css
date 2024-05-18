@@ -1,0 +1,23 @@
+.carousel__title {
+    margin-bottom: 60px;
+}
+
+@media screen and (max-width: 1366px) {
+    .carousel__title {
+      margin-bottom: calc(40px + (60 - 40) * ((100vw - 765px) / (1366 - 765)));
+    }
+  }
+
+  @media screen and (max-width: 1350px) {
+    .carousel__title {
+      margin-left: 54px;
+    }
+  }
+
+
+  @media screen and (max-width: 780px) {
+    .carousel__title {
+      margin-bottom: 40px;
+      margin-left: 20px;
+    }
+  }

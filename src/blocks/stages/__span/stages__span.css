@@ -1,0 +1,33 @@
+.stages__span {
+  position: absolute;
+  bottom: 10px;
+  left: 301px;
+  font-family: 'Golos Text';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  color: #3057a2;
+  width: 280px;
+  margin: 0;
+}
+
+@media screen and (max-width: 1366px) {
+    .stages__span {
+        bottom: 8px;
+        left: 300px;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    .stages__span {
+        position: static;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .stages__span {
+        max-width: 335px;
+        margin-left: 20px;
+    }
+}

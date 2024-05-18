@@ -1,0 +1,22 @@
+.stages__img {
+  position: absolute;
+  bottom: 0;
+  right: -70px;
+}
+
+@media screen and (max-width: 1350px) {
+    .stages__img {
+        top: -128px;
+        left: 190px;
+        width: 335px;
+        height: 182px;
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .stages__img {
+        left: calc(5px + (190 - 5) * ((100vw - 375px) / (780 - 375)));
+    }
+}
+

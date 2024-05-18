@@ -5,12 +5,16 @@
 
 @media screen and (max-width: 1366px) {
     .idea__img {
-        max-width: calc(335px + (394 - 335) * ((100vw - 765px) / (1366 - 765)));
+        width: calc(335px + (394 - 335) * ((100vw - 765px) / (1366 - 765)));
+        align-self: center;
+        margin: 24px 0;
     }
 }
 
-@media screen and (max-width: 1183px) {
+@media screen and (max-width: 765px) {
     .idea__img {
-        margin: 24px auto;
+        margin: 0 auto;
+        padding: 24px 0;
+        width: 335px;
     }
 }

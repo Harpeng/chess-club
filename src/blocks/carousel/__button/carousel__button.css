@@ -1,0 +1,19 @@
+.carousel__button {
+  width: 110px;
+  height: 35px;
+  background-color: transparent;
+  border: 1px solid #3057a2;
+  border-radius: 62px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 780px) {
+    .carousel__button {
+      opacity: 0.3;
+    }
+  }
+
+.carousel__button:hover {
+    background: #3057a2;   
+  }

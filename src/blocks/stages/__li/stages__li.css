@@ -1,0 +1,18 @@
+.stages__li {
+    background-image: url(../../../images/header-back.png);
+    background-color: #e9ded4;
+    background-blend-mode: color-burn;
+    display: none;
+    flex-direction: column;
+    gap: 20px;
+    width: 700px;
+    height: 300px;
+    padding: 62px 20px 0 20px;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 780px) {
+    .stages__li {
+        width: calc(335px + (700 - 335) * ((100vw - 375px) / (780 - 375)));
+    }
+}

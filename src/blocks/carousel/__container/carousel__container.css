@@ -1,0 +1,20 @@
+.carousel__container {
+    margin: 0 auto;
+    max-width: 1222px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+@media screen and (max-width: 1350px) {
+    .carousel__container {
+        max-width: 828px;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .carousel__container {
+        max-width: 414px;
+    }
+}

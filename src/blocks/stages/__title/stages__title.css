@@ -1,0 +1,16 @@
+.stages__title {
+    max-width: 806px;
+}
+
+@media screen and (max-width: 1350px) {
+    .stages__title {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .stages__title {
+        max-width: calc(335px + (806 - 335) * ((100vw - 375) / (780 - 375)));
+        margin-left: 20px;
+    }
+}

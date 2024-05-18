@@ -1,0 +1,12 @@
+.info__text_blue {
+    color: #3057a2;
+    font-weight: 400;
+    max-width: 704px;
+}
+
+@media screen and (max-width: 1180px) {
+    .info__text_blue {
+        max-width: calc(335px +(704 - 335)*((100vw - 375px) /(1180 - 375)));
+        margin: 0 auto;
+    }
+}

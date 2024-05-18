@@ -1,0 +1,11 @@
+.info__title-block {
+    margin-top: 18px;
+    max-width: 704px;
+}
+
+@media screen and (max-width: 1180px) {
+    .info__title-block {
+        margin: 0 auto;
+        max-width: calc(335px +(704 - 335)*((100vw - 375px) /(1180 - 375)));
+    }
+}

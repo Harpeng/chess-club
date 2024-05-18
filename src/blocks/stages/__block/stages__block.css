@@ -1,0 +1,18 @@
+.stages__block {
+    position: relative;
+}
+
+@media screen and (max-width: 1350px) {
+    .stages__block {
+        overflow: visible;
+        max-width: 700px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .stages__block {
+        width: calc(335px + (700 - 335) * ((100vw - 375px) / (780 - 375)));
+    }
+}
+

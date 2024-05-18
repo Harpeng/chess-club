@@ -1,0 +1,26 @@
+.second-title {
+  font-family: "Merriweather";
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: #313131;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 1366px) {
+    .second-title {
+        font-size: clamp(2.25rem, 0.818rem + 2.995vw, 3.375rem);
+        line-height: 120%;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 765px) {
+    .second-title {
+        font-size: 36px;
+        line-height: 110%;
+    }
+}
+

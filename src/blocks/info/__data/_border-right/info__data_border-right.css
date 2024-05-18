@@ -1,0 +1,9 @@
+.info__data_border-right {
+    border-right: 2px solid #d0d0d0;
+}
+
+@media screen and (max-width: 765px) {
+    .info__data_border-right {
+        border: none;
+    }
+}

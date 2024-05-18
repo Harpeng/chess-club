@@ -1,0 +1,20 @@
+.carousel {
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 1920px;
+    padding: 200px 0 200px 0;
+}
+
+@media screen and (max-width: 1366px) {
+    .carousel {
+        padding-top: calc(120px + (200 - 120) * ((100vw - 765px) / (1366 - 765)));
+        padding-bottom: calc(138px + (200 - 138) * ((100vw - 765px) / (1366 - 765)));
+    }
+}
+
+@media screen and (max-width: 765px) {
+    .carousel {
+        padding-top: 120px;
+        padding-bottom: 138px;
+    }
+}

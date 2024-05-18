@@ -1,0 +1,7 @@
+@media screen and (max-width: 765px) {
+    .info__data_nowrap {
+        position: absolute;
+        bottom: 90px;
+        right: -220px;
+    }
+}

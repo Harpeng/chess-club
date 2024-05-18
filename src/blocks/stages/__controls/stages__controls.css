@@ -1,0 +1,14 @@
+.stages__controls {
+    display: none;
+}
+
+@media screen and (max-width: 1350px) {
+    .stages__controls {
+        display: flex;
+        gap: 16px;
+        align-self: center;
+        align-items: center;
+        margin-top: 28px;
+    }
+}
+

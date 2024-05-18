@@ -1,0 +1,20 @@
+.carousel__item {
+  max-width: 394px;
+  padding: 0 37px;
+  display: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .carousel__item {
+    max-width: calc(335px + (394 - 335) * ((100vw - 780px) / (1366 - 780)));
+    box-sizing: border-box;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .carousel__item {
+    max-width: 335px;
+    width: 335px;
+  }
+}

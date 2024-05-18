@@ -1,0 +1,13 @@
+.control {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1366px) {
+    .control {
+      width: calc(36px + (44 - 36) * ((100vw - 780px) / (1200 - 780)));
+      height: calc(36px + (44 - 36) * ((100vw - 780px) / (1200 - 780)));
+    }
+  }
+

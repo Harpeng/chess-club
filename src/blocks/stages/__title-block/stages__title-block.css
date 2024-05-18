@@ -1,0 +1,15 @@
+.stages__title-block {
+    position: relative;
+    max-width: 806px;
+    margin-bottom: 52px;
+}
+
+@media screen and (max-width: 1350px) {
+    .stages__title-block {
+        margin-bottom: 148px;
+        display: flex;
+        gap: 12px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

@@ -1,0 +1,26 @@
+.info__img {
+    width: 555px;
+    height: 506px;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 1366px) {
+    .info__img {
+        width: calc(402px + (484 - 402) * ((100vw - 765px) / (1366 - 765)));
+        height: calc(374px + (555 - 374) * ((100vw - 765px) / (1366 - 765)));
+    }
+}
+
+@media screen and (max-width: 1180px) {
+    .info__img {
+        align-self: center;
+    }
+}
+
+@media screen and (max-width: 765px) {
+    .info__img {
+        width: 402px;
+        height: 374px;
+    }
+}
+

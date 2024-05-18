@@ -1,0 +1,11 @@
+@media screen and (max-width: 1180px) {
+    .info__detail {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 765px) {
+    .info__detail {
+        margin: 0 20px;
+    }
+}
